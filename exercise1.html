@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    &lt Head &gt
+    <h1>My HTML-only Website</h1>
+    <h3>Simple site built using only Html tagls --no CSS</h3>
+    <h3>
+      <ul>
+        <a href="#h"> <li>Home</li></a>
+        <a href="#a"> <li>About</li></a>
+        <a href="#f"> <li>Features</li></a>
+        <a href="#c"> <li>Contact</li></a>
+      </ul>
+    </h3>
+
+    <h2 id="h">Welcome</h2>
+
+    <p>
+      This page demonstrates layout and content using only Html tags.Use
+      Headings ,lists,tables,and froms to present infromation about CSS.
+    </p>
+
+    <h2 id="a">About this Page</h2>
+    <p>
+      This page uses Senamtic tags : &lt header &gt, &lt nav &gt, &lt main &gt,
+      &ls article &gt, &ls aside &gt, and &ls footer &gt.
+    </p>
+    <h2>Key Points</h2>
+    <ol>
+      <li>Readable structure for user and search engines.</li>
+      <li>No external styles-- browers default styles only.</li>
+
+      <li>Works well for quick prototypes or content-focused pages.</li>
+    </ol>
+
+    <h2 id="f">Features(HTML -only)</h2>
+    <dl>
+      <dt>Semantic layout</dt>
+      <dd>Clear structure using sections element</dd>
+      <dt>Accesible navigaton</dt>
+      <dd>Keyboard- and screen-reader-friendly links and headings</dd>
+      <dt>Forms and tables</dt>
+      <dd>Collect input and show tabular data using plain HTML</dd>
+    </dl>
+
+    <h2>Sample Data Table</h2>
+    <table border="2">
+      <span
+        >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp
+        &nbsp&nbsp Product list</span
+      >
+      <thead>
+        <th>Product</th>
+        <th>Category</th>
+        <th>Price(INR)</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Notebook</td>
+          <td>Stationery</td>
+          <td>50</td>
+        </tr>
+
+        <tr>
+          <td>Notebook</td>
+          <td>Stationery</td>
+          <td>10</td>
+        </tr>
+
+        <tr>
+          <td>Notebook</td>
+          <td>Accessiories</td>
+          <td>799</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Quick List</h2>
+    <ul>
+      <a href="#f"> <li>See features</li></a>
+      <a href="#c"> <li>Contact us</li></a>
+      <a href="#a"> <li>More about this demo</li></a>
+    </ul>
+    <h2 id="c">Contact</h2>
+    <p>If you'd like to get in touch, fill this simple (no styling)</p>
+    <form action="">
+   <fieldset>
+    <legend>Contact from</legend>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" minlength="5" maxlength="26" required/><br><br> 
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required/><br><br>
+     <label for="message">Message:</label><br>
+     <textarea id="message" name="message" rows="7" cols="30"></textarea><br>
+      <label for="contact">Preferred Contact</label><br>
+      <input type="radio" id="email" name="contact" value="Email">
+      <label for="email">Email</label><br>
+      <input type="radio" id="phone" name="contact" value="Phone">
+      <label for="phone">Phone</label><br><br>
+      <input type="submit" value="send" >
+   </fieldset>
+</form>
+   <p> &copy; 2025 My Html only Website</p>
+  </body>
+</html>
