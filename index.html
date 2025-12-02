@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Defines the character encoding for the web page.-->
     <meta charset="UTF-8" />
+    <!--Makes the website responsive on mobile devices.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Gives a short summary of your website. Used by search engines (like Google).-->
+    <meta name="description" content="Learning HTML for Full stack" />
+    <!--Defines who created the webpage.-->
+    <meta name="author" content="Bharathiraja" />
+    <!--Provides keywords about the webpage topic.-->
+    <meta name="Keywords" content="Html ,css, javascript ,Mern" />
+    <!--  <meta http-equiv="refresh" content="2" /> -->
+    <!--  <meta http-equiv="refresh" content="10 ,url=https://youtube.com/" />  -->
+
     <title>Document</title>
   </head>
   <body>
+    <a href="index1.html" target="_blank">New website </a>
+    <!--for scrolling down -->
+    <a href="#a">Pixel</a>
+
+     <table border="2">
+      
+
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <td>Bharath</td>
+          <td>Dinesh</td>
+          <td>Bharathiraja</td>
+        </tr>
+
+         <tr>
+          <th>Email</th>
+          <td>113@gmial.com</td>
+          <td>bharath@gmail.com</td>
+          <td>147@gmail.com</td>
+        </tr>
+
+         <tr>
+          <th>Contact</th>
+          <td>795456456</td>
+          <td>6554357766</td>
+          <td>8610338565</td>
+        </tr>
+
+      </tbody>
+    </table>
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -63,23 +105,42 @@
       </dd>
     </dl>
 
-      <img
+    <img
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Madurai-alanganallur-jallikattu.jpg/640px-Madurai-alanganallur-jallikattu.jpg"
       alt="Jallikattu"
     />
     <iframe
-      src="https://www.youtube.com/"
+      src="index1.html"
       frameborder="10"
       width="600px"
       height="480px"
     ></iframe>
 
-    <form action="">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" minlength="5" maxlength="10" required/><br /><br />
-      <label for="age">Age:</label>
-      <input type="number" id="age" name="age" min="3" max="120" required/><br /><br />
-      <input type="submit" value="Submit" />
+    <form action="" id="a">
+      <fieldset>
+        <legend>Contact</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          minlength="5"
+          maxlength="10"
+          required
+        /><br /><br />
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="3"
+          max="120"
+          required
+        /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
     </form>
+
+   
   </body>
 </html>
